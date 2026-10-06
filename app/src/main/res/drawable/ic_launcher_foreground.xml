@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.68"
+        android:scaleY="0.68"
+        android:translateX="17.28"
+        android:translateY="17.28">
+        
+        <!-- Snare / Drum Shell Body -->
+        <path
+            android:fillColor="#1E293B"
+            android:strokeColor="#FFB300"
+            android:strokeWidth="3.5"
+            android:strokeLineJoin="round"
+            android:pathData="M24,48 L84,48 L84,72 C84,81 70.5,86 54,86 C37.5,86 24,81 24,72 Z" />
+            
+        <!-- Drum Tension Lugs / Hardware -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M32,50 L36,50 L36,70 L32,70 Z M52,50 L56,50 L56,72 L52,72 Z M72,50 L76,50 L76,70 L72,70 Z" />
+            
+        <!-- Snare Drum Top Head -->
+        <path
+            android:fillColor="#F8FAFC"
+            android:strokeColor="#FFB300"
+            android:strokeWidth="3"
+            android:pathData="M54,34 C72,34 86,39.5 86,46 C86,52.5 72,58 54,58 C36,58 22,52.5 22,46 C22,39.5 36,34 54,34 Z" />
+            
+        <!-- Inner head ring -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M54,38 C68,38 78,41.5 78,46 C78,50.5 68,54 54,54 C40,54 30,50.5 30,46 C30,41.5 40,38 54,38 Z" />
+
+        <!-- Crossed Drumsticks -->
+        <!-- Stick 1 (Top Left to Bottom Right) -->
+        <path
+            android:fillColor="#FFF8E1"
+            android:strokeColor="#B45309"
+            android:strokeWidth="1.2"
+            android:pathData="M20,24 L86,78 L88,75 L22,21 Z" />
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M18,22 C17,21 17,19 19,18 C21,17 23,17 24,19 L21,24 Z" />
+
+        <!-- Stick 2 (Top Right to Bottom Left) -->
+        <path
+            android:fillColor="#FFF8E1"
+            android:strokeColor="#B45309"
+            android:strokeWidth="1.2"
+            android:pathData="M88,24 L22,78 L20,75 L86,21 Z" />
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M90,22 C91,21 91,19 89,18 C87,17 85,17 84,19 L87,24 Z" />
+
+        <!-- Strike Accent Sparks / Sound Waves -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M54,22 L55,27 L53,27 Z M41,26 L45,29 L43,30 Z M67,26 L65,30 L63,29 Z" />
+    </group>
+</vector>
